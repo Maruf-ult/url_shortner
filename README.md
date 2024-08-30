@@ -60,7 +60,7 @@ This is a MERN stack application that allows users to convert long URLs into tin
    npm start
    ```
 
-6. Run the backend application:
+6. Run the frontend application:
    
    ```
    cd client
