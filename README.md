@@ -29,7 +29,7 @@ This is a MERN stack application that allows users to convert long URLs into tin
 3. Open the terminal in the repository folder:
  
    ```
-   cd folder-name
+   cd url_shortner
     ```
 
 5. Install backend dependencies:
