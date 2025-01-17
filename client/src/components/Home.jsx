@@ -34,7 +34,7 @@ function Home() {
         alert("must fill up the long_url field");
         return;
       }
-      const val = await axios.post("http://localhost:3000/api/create_url", {
+      const val = await axios.post("https://url-shortner-1-agxz.onrender.com/api/create_url", {
         long_url: longUrl,
       });
       const res = val.data;
