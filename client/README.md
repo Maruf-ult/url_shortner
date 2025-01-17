@@ -1,8 +1,77 @@
-# React + Vite
+# TinyURL Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a MERN stack application that allows users to convert long URLs into tiny URLs. Additionally, it generates QR codes for the tiny URLs, which can be  copied to the clipboard and shared on Facebook.
 
-Currently, two official plugins are available:
+## Features
+  - Convert long URLs to tiny URLs
+  - Generate QR codes for tiny URLs
+  - Copy tiny URLs to the clipboard
+  - Share tiny URLs on Facebook
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Technologies Used
+ 
+  - **Express.js**: Backend framework
+  - **React.js**: Frontend library
+  - **Node.js**: Backend runtime environment
+  - **MongoDB**: Database to store URLs
+
+
+## Installation
+
+1. Clone this repository:
+
+   ```
+    https://github.com/Maruf-ult/url_shortner.git
+     ```
+
+2. Open the terminal in the repository folder:
+ 
+   ```
+   cd folder-name
+    ```
+
+3. Install backend dependencies:
+
+   ```
+   cd server
+   npm install
+    ```
+
+4. Install frontend dependencies:
+   
+   ```
+   cd client
+   npm install
+   ```
+
+5. Configure MongoDB:
+
+
+- Create an account on MongoDB Compass.
+- Create a database and obtain your MongoDB URI.
+- Create a `.env` file in the root directory and add your MongoDB URI:
+
+  ```  MONGO_URI=your_mongodb_uri  ```
+
+6. Run the backend application:
+   
+   ```
+   cd server
+   npm start
+   ```
+
+7. Run the frontend application:
+   
+   ```
+   cd client
+   npm run dev
+   ```   
+
+   
+
+Feel free to adapt this template to your project's specific requirements. Happy coding! 🚀
+
+: GitHub - Maruf-ult/url_shortner
+
