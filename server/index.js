@@ -10,7 +10,7 @@ app.use(router);
 dbCn();
 
 
-const PORT = process.env.PORT||3000;
+const PORT = https://url-shortner-1-agxz.onrender.com;
 
 app.listen(PORT,()=>{
      console.log(`server is runnning on ${PORT}`)
