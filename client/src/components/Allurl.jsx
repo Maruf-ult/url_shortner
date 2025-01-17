@@ -9,7 +9,7 @@ function Allurl() {
    useEffect(()=>{
       const fetchData = async ()=>{
          try {
-            const urlList =await axios.get('http://localhost:3000/api/all_url')
+            const urlList =await axios.get('https://url-shortner-1-agxz.onrender.com/api/all_url')
             const  res = urlList.data.all_url;
             console.log(res)
             setUrl(res);
