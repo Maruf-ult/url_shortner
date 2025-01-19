@@ -1,4 +1,4 @@
-import Routers from "./components/routers"
+import Routers from "./components/Routers.jsx"
 import { Toaster } from "react-hot-toast"
 
 function App() {
