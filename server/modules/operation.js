@@ -7,7 +7,7 @@ export const sendUrl = async (req, res) => {
 
     try {
         const short_id = shortid.generate();
-        const short_url = `https://url-shortner-1-agxz.onrender.com/api/tiny_url/${short_id}`;
+        const short_url =  `http://localhost:3000/api/tiny_url/${short_id}`;
         const newUrl = new urlSchema({ long_url, short_url });
         await newUrl.save();
         return res.status(201).json({ success: true, msg: "largeUrl posted successfully", newUrl });
