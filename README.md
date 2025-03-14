@@ -1,5 +1,8 @@
 # TinyURL Generator
 
+#Live link
+https://url-shortner-1-57qo.onrender.com
+
 ## Description
 This is a MERN stack application that allows users to convert long URLs into tiny URLs. Additionally, it generates QR codes for the tiny URLs, which can be  copied to the clipboard and shared on Facebook.
 
